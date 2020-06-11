@@ -10,6 +10,7 @@ public class myAppTester {
 	  
 	  Scanner input = new Scanner(System.in);
 	  int n=0;
+	  double t;
 	  System.out.println("Hello Software Engineering World");
 	  System.out.println("Input your number and press enter: ");
 	  n = input.nextInt();
@@ -18,7 +19,7 @@ public class myAppTester {
 	  System.out.println();
 
 	  // add a line below to call your myTestMethod from here  then remove the block comment symbols  
-
+	  myTestMethod(t);
 	}
 	
 	//This is a method to reverse the number by recursion
@@ -33,15 +34,21 @@ public class myAppTester {
 	       }
 	   }
 
-
-	   /* 
-	       add your test method in this space then remove the block comment symbols
 	       public static void myTestMethod(...){
 
-            
+         
+		
+		double num1 = 2.4;
+		double num2 = 3;
+		double num3 = 6;
+		double num4 = 5.5;
+		double res = 0;
+		 res = (num1 + num2 + num3 + num4 )/4;
+		System.out.println("The average of numbers is " + res);
+	
 
 		   }
 	 
-	   */
+	   
 
 }
